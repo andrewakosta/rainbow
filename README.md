@@ -4,7 +4,7 @@
 ![techs](https://img.shields.io/badge/techs-javascript—css—html—react-yellow.svg)
 
 This is practical project in which react is impelemented to renderize a grid of images from the 
-API of pixabay and also this app has a seeker with state to update the search parameter in real time.
+API of pixabay and also this app has a seeker with state to update the search parameter in real time :).
 <p align="center">
   <img alt="Maps image" src="https://images-projects.s3-sa-east-1.amazonaws.com/Rainbow.png">
 </p>
