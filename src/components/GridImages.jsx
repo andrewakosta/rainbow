@@ -1,7 +1,16 @@
 import React from 'react'
-const GridImages = () => {
+
+import Image from './Image'
+const GridImages = ({images}) => {
     return ( 
-        <p>Grid Images</p>
+        <div className="grid-images">
+            {images.map(image => (
+                <Image
+                    key={image.id}
+                    image={image}
+                />   
+            ))}
+        </div>
      );
 }
  

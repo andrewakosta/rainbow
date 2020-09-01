@@ -2,12 +2,22 @@
     
     padding: 0;
     margin: 0;
+    
+}
+.body{
+    background: rgb(14, 13, 13);
+}
+.app {
+    background-color:rgb(17, 17, 17);
+    position: relative;
+    
 }
 .nav-container{
-    width: 100vw;
-    background-color:rgb(17, 17, 17);
+    width: 100%;
+    background-color:rgb(7, 7, 7);
     display:grid;
     grid-template-columns: 370px 1fr;
+    margin-bottom: 15px;
     
 }
 .logo-container{
@@ -46,3 +56,109 @@
     top:8%;
     right: 0;
 } 
+.grid-images{
+    
+    width: 96%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,200px);
+    overflow: hidden;
+    justify-content: space-between;
+    grid-gap: 15px;
+   
+}
+.image-card {
+    position: relative;
+}
+.image-card img{
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+.overflay{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:transparent;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+.overflay:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(161, 165, 161);
+    background-color:rgb(0,0,0, .8);
+
+    font-size: 30px;
+}
+.icons {
+    margin: 0 8px 0 8px;
+}
+
+.level-1{
+    grid-column-end: span 1;
+}
+.level-2{
+    grid-column-end: span 2;
+}
+.level-3{
+    grid-column-end: span 3;
+}
+
+.level-h-1{
+    grid-row-end: span 1;
+}
+.level-h-2{
+    grid-row-end: span 2;
+}
+.level-h-3{
+    grid-row-end: span 3;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-container{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+;
+    
+
+}
+.btn-pagination{
+    width: 45%;
+    background-color: #00ff00;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: green 5px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.btn-pagination:hover{
+    background-color:rgb(8, 158, 8);
+}
+.btn-pagination:focus{
+    outline: none;
+}
