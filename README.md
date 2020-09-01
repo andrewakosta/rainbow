@@ -1,4 +1,4 @@
-# News from Colombia
+# Rainbow
 
 ![status](https://img.shields.io/badge/status-running-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![database](https://img.shields.io/badge/database-none-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-8-blue.svg) ![Version](https://img.shields.io/badge/tag-v1.0-orange.svg)
 ![techs](https://img.shields.io/badge/techs-javascript—css—html—react-yellow.svg)
