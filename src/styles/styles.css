@@ -1,5 +1,48 @@
 *{
-    background-color:green;
+    
     padding: 0;
     margin: 0;
 }
+.nav-container{
+    width: 100vw;
+    background-color:rgb(17, 17, 17);
+    display:grid;
+    grid-template-columns: 370px 1fr;
+    
+}
+.logo-container{
+    padding: 10px;
+}
+.logo-container img{
+    width: 100%;   
+}
+.form-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.form-container input{
+    height: 60px;
+    width: 100%;
+    font-weight: bold;
+    font-size:1.5rem ;
+    padding: 0 0 0 15px;
+}
+.form-container input:focus{
+    outline:none;
+    outline-color:#00ff00;
+    outline-style: auto;
+    color: rgb(5, 87, 5);
+}
+.form-container span{
+    width: 100px;
+    height: 55px;
+    background-image: url('../assets/search_icon.png');
+    background-position: center;
+    border-image-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:8%;
+    right: 0;
+} 
